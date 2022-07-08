@@ -81,6 +81,7 @@ video{
         font-size: 1.2rem;
         font-weight:800;
         color:#fff;
+        height:300px;
         text-shadow:3px 4px 5px black;
         justify-content: space-between;
         text-transform: uppercase;
@@ -91,34 +92,34 @@ video{
     }
     
        .item1{
-        transition:4s;
+        transition:10s;
         border:none;
-        animation: animate1 5s ease infinite;
+        animation: animate1 15s ease infinite;
        }
        @keyframes animate1
        {
         0%{transform: translateX(-50%);}
         50%{transform: rotate(40deg);}
-        60%{transform: translateX(50%);}
+        60%{transform: translateX(50%); color:blue;}
         100%{transform: translateX(-50%);}
 
        }
        .item2{
-        transition:4s;
+        transition:15s;
         border:none;
-        animation: animate2 5s ease infinite;
+        animation: animate2 15s ease infinite;
        }
        @keyframes animate2
        {
-        0%{transform: translateX(50%);}
-        50%{transform: translateX(-50%);}
+        0%{transform: translateX(50%);color:red;}
+        50%{transform: translateX(-50%);color:blue;}
         100%{transform: translateX(50%);}
 
        }
        .item3{
-        transition:4s;
+        transition:20s;
         border:none;
-        animation: animate3 5s ease infinite;
+        animation: animate3 15s ease infinite;
        }
        @keyframes animate3
        {
@@ -128,9 +129,9 @@ video{
 
        }
        .item4{
-        transition:4s;
+        transition:25s;
         border:none;
-        animation: animate4 5s ease infinite;
+        animation: animate4 15s ease infinite;
        }
        @keyframes animate4
        {
@@ -140,9 +141,9 @@ video{
 
        }
        .item5{
-        transition:4s;
+        transition:30s;
         border:none;
-        animation: animate5 5s ease infinite;
+        animation: animate5 15s ease infinite;
        }
        @keyframes animate5
        {
@@ -152,9 +153,9 @@ video{
 
        }
        .item6{
-        transition:4s;
+        transition:35s;
         border:none;
-        animation: animate6 5s ease infinite;
+        animation: animate6 15s ease infinite;
        }
        @keyframes animate6
        {
@@ -164,9 +165,9 @@ video{
 
        }
        .item7{
-        transition:4s;
+        transition:40s;
         border:none;
-        animation: animate7 5s ease infinite;
+        animation: animate7 15s ease infinite;
        }
        @keyframes animate7
        {
@@ -176,9 +177,9 @@ video{
 
        }
        .item8{
-        transition:4s;
+        transition:45s;
         border:none;
-        animation: animate8 5s ease infinite;
+        animation: animate8 15s ease infinite;
        }
        @keyframes animate8
        {
@@ -188,9 +189,9 @@ video{
 
        }
        .item9{
-        transition:4s;
+        transition:10s;
         border:none;
-        animation: animate9 5s ease infinite;
+        animation: animate9 15s ease infinite;
        }
        @keyframes animate9
        {
