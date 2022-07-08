@@ -86,7 +86,7 @@ video{
         text-transform: uppercase;
         flex-wrap: nowrap;
         flex-direction: column;
-        transform:skew(20deg, 10deg);
+        /* transform:skew(20deg, 10deg); */
         /* height:400px; */
     }
     
