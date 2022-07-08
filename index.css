@@ -100,10 +100,11 @@ video{
        }
        @keyframes animate1
        {
-        0%{transform: translateX(-50%);}
-        50%{transform: rotate(40deg);}
-        60%{transform: translateX(50%); color:blue;}
-        100%{transform: translateX(-50%);}
+        0%{transform: translateX(50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(-50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(50%);color:red;}
 
        }
        .item2{
@@ -113,10 +114,11 @@ video{
        }
        @keyframes animate2
        {
-        0%{transform: translateX(50%);color:red;}
-        50%{transform: translateX(-50%);color:blue;}
-        100%{transform: translateX(50%);}
-
+        0%{transform: translateX(-50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(-50%);color:red;}
        }
        .item3{
         transition:20s;
@@ -125,10 +127,11 @@ video{
        }
        @keyframes animate3
        {
-        0%{transform: translateX(-50%);}
-        50%{transform: translateX(50%);}
-        100%{transform: translateX(-50%);}
-
+        0%{transform: translateX(50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(-50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(50%);color:red;}
        }
        .item4{
         transition:25s;
@@ -137,9 +140,11 @@ video{
        }
        @keyframes animate4
        {
-        0%{transform: translateX(50%);}
-        50%{transform: translateX(-50%);}
-        100%{transform: translateX(50%);}
+        0%{transform: translateX(-50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(-50%);color:red;}
 
        }
        .item5{
@@ -149,10 +154,11 @@ video{
        }
        @keyframes animate5
        {
-        0%{transform: translateX(-50%);}
-        50%{transform: translateX(50%);}
-        100%{transform: translateX(-50%);}
-
+        0%{transform: translateX(50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(-50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(50%);color:red;}
        }
        .item6{
         transition:35s;
@@ -161,10 +167,11 @@ video{
        }
        @keyframes animate6
        {
-        0%{transform: translateX(50%);}
-        50%{transform: translateX(-50%);}
-        100%{transform: translateX(50%);}
-
+        0%{transform: translateX(-50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(-50%);color:red;}
        }
        .item7{
         transition:40s;
@@ -173,9 +180,11 @@ video{
        }
        @keyframes animate7
        {
-        0%{transform: translateX(-50%);}
-        50%{transform: translateX(50%);}
-        100%{transform: translateX(-50%);}
+        0%{transform: translateX(50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(-50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(50%);color:red;}
 
        }
        .item8{
@@ -185,10 +194,11 @@ video{
        }
        @keyframes animate8
        {
-        0%{transform: translateX(50%);}
-        50%{transform: translateX(-50%);}
-        100%{transform: translateX(50%);}
-
+        0%{transform: translateX(-50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(-50%);color:red;}
        }
        .item9{
         transition:10s;
@@ -197,10 +207,11 @@ video{
        }
        @keyframes animate9
        {
-        0%{transform: translateX(-50%);}
-        50%{transform: translateX(50%);}
-        100%{transform: translateX(-50%);}
-
+        0%{transform: translateX(50%);color:red;}
+        20%{transform: translate(0%);color:blue;}
+        50%{transform: translateX(-50%); color:red;}
+        80%{transform: translateX(0%); color:blue;}
+        100%{transform: translateX(50%);color:red;}
        }
     }
     
